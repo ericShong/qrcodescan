@@ -25,7 +25,7 @@ public class Test : MonoBehaviour {
 		if (GUI.Button (new Rect (0, 0, Screen.width, Screen.height / 10), "Reset")) {
 			Reset ();
 		}
-		GUI.Box (new Rect (0, Screen.height / 10, Screen.width/5, Screen.height / 5), ad);
+		GUI.Box (new Rect (0, Screen.height / 10, Screen.width/4, Screen.height / 4), ad);
 	}
 
 	// receive the result datatext from the qrcontroller event.
